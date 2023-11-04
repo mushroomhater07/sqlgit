@@ -9,7 +9,7 @@ jobs:
     - name: Test Output
       run: echo "Here is a test"
     - name: Show databases
-      run: mysql -h $127.0.0.1 --port 3306 -uhey -p$151028213 -e "SHOW DATABASES";
+      run: mysql -h $ 127.0.0.1 --port 3306 -uhey -p$151028213 -e "SHOW DATABASES";
     - name: Run a sample SQL on remote
       run: mysql -h localhost --port 3306 -u hey -p 151028213 -e "source hawthorn/hawthorn_script.sql";
     - name: Run a sample SQL on remote
