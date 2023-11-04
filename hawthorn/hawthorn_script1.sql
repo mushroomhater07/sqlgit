@@ -1,8 +1,8 @@
-DROP DATABASE newtable;
+DROP DATABASE newtable1;
 
-CREATE DATABASE newtable;
+CREATE DATABASE newtable1;
 
-USE newtable;
+USE newtable1;
 
 CREATE TABLE customer (
   id INT,
